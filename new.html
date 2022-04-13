@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">   <!--set encoder-->
+        <title>APP LIST</title>      <!--judul di tab browser-->
+        <link rel="stylesheet" href="public/css/new-style.css">      <!--lokasi file css-->
+    </head>
+
+    <body>
+        <header>  <!--bagian atas-->
+            <a href="index.html">            <!--link buat ke home (top)-->
+                <img src="public/images/home.png">    <!--gambar ikon home-->
+            </a>
+            <a class="header-logo" href="main.html">/ LIST</a>   <!--tulisan samping ikon home-->
+            <a class="header-sign" href="https://github.com/ari-mhp">ari.mhp</a>  <!--link signature ke github-->
+        </header>
+
+        <div class="container">
+            <div class="container-header">
+                <h1>Penambahan Item</h1>
+            </div>
+
+            <div class="item-form-wrapper">
+                <p class="form-label">Apa yang ingin anda beli?</p>
+                <form action="main.html" method="get">
+                    <input type="text" name="itemName">
+                    <input type="submit" value="Tambahkan">
+                </form>
+
+            </div>
+
+            <a href="main.html" class="cancel-button">Kembali</a>
+        </div>
+    </body>
+</html>
